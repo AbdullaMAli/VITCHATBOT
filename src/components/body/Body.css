@@ -1,24 +1,62 @@
-.body {
-    margin: 50px 170px;
+.chat-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 35px;
-}
-
-.submit-section button{
-    border: none;
+    height: 100vh;
+    background-color: #121212;
     color: white;
+    position: relative;
+  }
+  /* Welcome text with 3D Effect */
+.welcome-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    background: linear-gradient(45deg, #4a90e2, #e94e77);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.1);
+  }
+  
+  .chat-input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 20px;
+    width: 60%;
+    background: #222;
     border-radius: 50px;
-    background: #9f6207;
-    font-size: 22px;
-    padding: 20px 40px;
-    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  .chat-input {
+    flex-grow: 1;
+    padding: 12px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    font-size: 16px;
+    color: white;
+    background: #333;
+  }
+  
+  .send-button {
+    margin-left: 10px;
+    padding: 10px 15px;
+    font-size: 20px;
+    background: linear-gradient(45deg, #4f5b66, #2c3e50, #1c2833, #566573);
+
+    color: white;
+    border: none;
+    border-radius: 50px;
     cursor: pointer;
-    transition: 0.3s
-}
-.submit-section button:hover{
-    transform: scale(1.05);
     transition: 0.3s;
-}
+    font-weight: bold;
+  }
+  
+  .send-button:hover {
+    background: linear-gradient(45deg, #ff4b2b, #ff416c);
+    transform: scale(1.1);
+  }
+  

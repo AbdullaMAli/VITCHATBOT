@@ -1,62 +1,54 @@
-import React, { useState } from 'react'
-import './Body.css'
+import React, { useState } from "react";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import "./Body.css";
 
 const Body = () => {
+  const [input, setInput] = useState("");
+  const [inputFocused, setInputFocused] = useState(false);
 
-  const[question, setQuestion] = useState('');
-  const[response, setResponse] = useState('');
-
-  const onChangeSetQUestion = async (event) => {
-    setQuestion(event.target.value)
-  };
-
-  const onSubmit = async () => {
-    try {
-      console.log(question);
-      const result = await fetch('http://localhost:9980/alpha-assist/v1/connect/ask-alpha', {
-        method: 'POST',
-        headers: {
-          'accept': '*/*',
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-          "contents": [
-            {
-              "parts": [
-                {
-                  "text": question
-                }
-              ]
-            }
-          ]
-        })
+  // Function to handle message sending
+  const handleSendMessage = () => {
+    if (!input.trim()) {
+      toast.error("Input cannot be empty!", {
+        position: "top-center",
+        autoClose: 3000, // Time before it disappears
+        hideProgressBar: false, // Show the countdown timer
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: false,
+        theme: "dark",
       });
-      const data = await result.json(); // Convert response to JSON
-      setResponse(data.resultText.text); // Save the response in the state
-      console.log(response);
-    } catch (error) {
-      console.error('Error calling API:', error);
+      return;
     }
+    console.log("Message Sent:", input);
+    setInput(""); // Clear input after sending
   };
-  
-  
   
 
   return (
-    <div className="body">
-      <div className="question-section">
-        <textarea onChange={onChangeSetQUestion} style={{ width: '1050px', height: '250px' }} class="form-control" aria-label="With textarea" placeholder='Ask your question here'></textarea>
+    <div className="chat-container">
+      {!inputFocused && <h2 className="welcome-text">Welcome to VAssist</h2>}
+
+      <div className="chat-input-container">
+        <input
+          type="text"
+          className="chat-input"
+          placeholder="Type a message..."
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+          onFocus={() => setInputFocused(true)}
+          onBlur={(e) => {
+            if (!e.target.value) setInputFocused(false);
+          }}
+        />
+        <button className="send-button" onClick={handleSendMessage}>➤</button>
       </div>
 
-      <div className="submit-section">
-        <button onClick={onSubmit} type='submit' className="submit">Ask AlphaAssist</button>
-      </div>
-
-      <div className="answer-section">
-        <textarea value={response} readOnly style={{ width: '1050px', height: '350px' }} class="form-control" aria-label="With textarea" placeholder=''></textarea>
-      </div>
+      {/* Toast Notifications */}
+      <ToastContainer />
     </div>
-  )
-}
+  );
+};
 
-export default Body
+export default Body;

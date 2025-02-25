@@ -23,7 +23,7 @@ const App = () => {
 
         <SignedIn>
           <Body />
-          <Footer />
+          {/* <Footer /> */}
         </SignedIn>
       </main>
     </div>
