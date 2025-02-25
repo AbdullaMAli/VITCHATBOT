@@ -1,0 +1,23 @@
+/* src/App.css */
+.header {
+    display: flex;
+    justify-content: space-between; /* Moves elements to opposite sides */
+    align-items: center;
+    background-color: #000;
+    padding: 15px 20px;
+    color: white;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .highlight {
+    color: #f4a261; /* Adds a stylish color to 'AlphaAssist' */
+  }
+  
+  .profile-icon {
+    margin-left: auto; /* Pushes to the right */
+  }
+  
