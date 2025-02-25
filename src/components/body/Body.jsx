@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./Body.css";
@@ -7,7 +7,6 @@ const Body = () => {
   const [input, setInput] = useState("");
   const [messages, setMessages] = useState([]);
   const [showWelcome, setShowWelcome] = useState(true);
-  const [fadeOut, setFadeOut] = useState(false);
 
   const handleSendMessage = () => {
     if (!input.trim()) {
@@ -20,10 +19,7 @@ const Body = () => {
       return;
     }
 
-    if (showWelcome) {
-      setFadeOut(true); // Start fade-out animation
-      setTimeout(() => setShowWelcome(false), 1000); // Remove after animation
-    }
+    if (showWelcome) setShowWelcome(false);
 
     const newMessage = { text: input, sender: "user" };
     setMessages((prev) => [...prev, newMessage]);
@@ -38,12 +34,8 @@ const Body = () => {
 
   return (
     <div className="chat-container">
-      {/* Welcome Text with Smooth Fade-Out */}
-      {showWelcome && (
-        <h2 className={`welcome-text ${fadeOut ? "fade-out" : ""}`}>
-          Welcome to VAssist
-        </h2>
-      )}
+      {/* Welcome Text (disappears after first message) */}
+      {showWelcome && <h2 className="welcome-text fade-out">Welcome to VAssist</h2>}
 
       {/* Chat Messages */}
       <div className="chat-box">
@@ -62,6 +54,7 @@ const Body = () => {
           placeholder="Type a message..."
           value={input}
           onChange={(e) => setInput(e.target.value)}
+          onKeyDown={(e) => e.key === "Enter" && handleSendMessage()}  // 🔥 Added this
         />
         <button className="send-button" onClick={handleSendMessage}>➤</button>
       </div>
