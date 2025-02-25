@@ -9,12 +9,11 @@ const Body = () => {
   const [showWelcome, setShowWelcome] = useState(true);
   const [fadeOut, setFadeOut] = useState(false);
 
-  // Show the welcome message on refresh
   useEffect(() => {
     setShowWelcome(true);
   }, []);
 
-  const handleSendMessage = () => {
+  const handleSendMessage = async () => {
     if (!input.trim()) {
       toast.error("Input cannot be empty!", {
         position: "top-center",
@@ -30,25 +29,38 @@ const Body = () => {
       setTimeout(() => setShowWelcome(false), 1000); // Fade out after 1s
     }
 
-    const newMessage = { text: input, sender: "user" };
-    setMessages((prev) => [...prev, newMessage]);
+    const userMessage = { text: input, sender: "user" };
+    setMessages((prev) => [...prev, userMessage]);
     setInput("");
 
-    // Simulate bot response delay
-    setTimeout(() => {
-      const botResponse = { text: "This is a response from VAssist!", sender: "bot" };
-      setMessages((prev) => [...prev, botResponse]);
-    }, 1500);
+    try {
+      const response = await fetch("http://127.0.0.1:5000/chat", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ message: input }),
+      });
+
+      const data = await response.json();
+      const botMessage = { text: data.response || "Sorry, I didn't understand.", sender: "bot" };
+
+      setTimeout(() => {
+        setMessages((prev) => [...prev, botMessage]);
+      }, 1500); // Simulating bot response delay
+    } catch (error) {
+      toast.error("Server error. Try again later!", {
+        position: "top-center",
+        autoClose: 3000,
+        theme: "dark",
+      });
+    }
   };
 
   return (
     <div className="chat-container">
-      {/* Welcome Message (Appears on refresh, fades out on first message) */}
       {showWelcome && (
         <h2 className={`welcome-text ${fadeOut ? "fade-out" : ""}`}>Welcome to VAssist</h2>
       )}
 
-      {/* Chat Messages */}
       <div className="chat-box">
         {messages.map((msg, index) => (
           <div key={index} className={msg.sender === "user" ? "user-msg" : "bot-msg"}>
@@ -57,7 +69,6 @@ const Body = () => {
         ))}
       </div>
 
-      {/* Chat Input */}
       <div className="chat-input-container">
         <input
           type="text"
@@ -65,12 +76,11 @@ const Body = () => {
           placeholder="Type a message..."
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          onKeyDown={(e) => e.key === "Enter" && handleSendMessage()} // Pressing Enter sends message
+          onKeyDown={(e) => e.key === "Enter" && handleSendMessage()}
         />
         <button className="send-button" onClick={handleSendMessage}>➤</button>
       </div>
 
-      {/* Toast Notifications */}
       <ToastContainer />
     </div>
   );

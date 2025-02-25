@@ -1,0 +1,58 @@
+{
+    "courses": [
+      {
+        "name": "B.Tech in Computer Science and Engineering",
+        "duration": "4 years",
+        "description": "Focuses on the theoretical foundations of computing along with practical applications.",
+        "fees": "₹7.8 L",
+        "eligibility": "10+2 with Physics, Chemistry, and Mathematics",
+        "exam_pattern": "Semester system with continuous assessment"
+      },
+      {
+        "name": "MBA",
+        "duration": "2 years",
+        "description": "A program designed to develop managerial skills and business acumen.",
+        "fees": "₹6.97 L",
+        "eligibility": "Bachelor's degree in any discipline",
+        "exam_pattern": "Trimester system with project work"
+      }
+    ],
+    "facilities": [
+      {
+        "name": "Library",
+        "description": "A seven-floor library with a vast collection of books and digital resources.",
+        "location": "Academic Block 1",
+        "contact": "+91 44 3993 1555"
+      },
+      {
+        "name": "Hostel",
+        "description": "On-campus accommodation with options ranging from 2 to 6 sharing.",
+        "fees": "₹5.41 L - ₹6.62 L for 4 years",
+        "contact": "+91 44 3993 1555"
+      }
+    ],
+    "contacts": {
+      "admissions": {
+        "name": "Dr. Sasikumar S",
+        "position": "Director – UG Admissions",
+        "email": "ugadmission@vit.ac.in",
+        "phone": "+91 44 4627 7555"
+      },
+      "administration": {
+        "name": "Dr. Sekar S K",
+        "position": "Director – Estates",
+        "email": "director.estates@vit.ac.in",
+        "phone": "+91 44 3993 1555"
+      }
+    },
+    "faqs": [
+      {
+        "question": "What is the exam pattern for B.Tech programs?",
+        "answer": "The B.Tech programs follow a semester system with continuous assessment, including mid-term exams, assignments, and end-semester exams."
+      },
+      {
+        "question": "What facilities are available on campus?",
+        "answer": "The campus offers a library, hostels, sports complexes, and various labs equipped with modern technology."
+      }
+    ]
+  }
