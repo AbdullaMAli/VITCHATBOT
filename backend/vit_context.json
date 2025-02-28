@@ -54,5 +54,99 @@
         "question": "What facilities are available on campus?",
         "answer": "The campus offers a library, hostels, sports complexes, and various labs equipped with modern technology."
       }
-    ]
-  }
+    ],
+    "academics": [
+      {
+          "question": "What is the purpose of the Fully Flexible Credit System (FFCS)?",
+          "answer": "The Fully Flexible Credit System (FFCS) allows students to register courses of their choice and alter the pace of learning within the broad framework of academic course and credit requirements. It enables students to decide their academic plan and modify it as they progress. FFCS also allows students to choose their own timetable by combining it with a slot-based timetable, making learning more experiential through projects and interdisciplinary courses."
+      },
+      {
+          "question": "What is the minimum attendance requirement for students?",
+          "answer": "Students are expected to maintain 100% attendance in all courses. However, they are permitted to maintain an attendance of 75% (i.e., absent for 25% of instructional hours) in each course without providing proof for the absence. This 25% absence includes medical, personal, casual, official leave, and participation in co-curricular or extra-curricular events."
+      },
+      {
+          "question": "What are the consequences of not meeting the minimum attendance requirement?",
+          "answer": "Students who fail to meet the minimum attendance requirement of 75% will be debarred from writing the next evaluation component (CAT/FAT) of the course. They will be awarded an 'N' grade and must re-register the course to clear it."
+      },
+      {
+          "question": "What is the grading system used in FFCS?",
+          "answer": "The grading system uses letter grades (S, A, B, C, D, E, F, N, W, U, P) with corresponding grade points. A student is declared to have passed a course if they secure a minimum of 40% in the theory FAT, 50% in the laboratory/project components, and 50% in the grand total marks for the course. Grades are awarded based on absolute or relative grading, depending on the course type and class strength."
+      },
+      {
+          "question": "What is the difference between absolute and relative grading?",
+          "answer": "Absolute grading is based on fixed mark ranges (e.g., S for >= 90, A for >= 80 but < 90, etc.), while relative grading is based on the student's performance relative to their peers in the same class. Relative grading is used for theory courses with a class strength of more than 10, while absolute grading is used for laboratory, soft skills, and project courses."
+      },
+      {
+          "question": "What is the minimum credit requirement for completing a programme?",
+          "answer": "The minimum credit requirement for completing a programme is specified in the programme curriculum. Students must complete all courses under Foundation Core (FC), Discipline Core (DC), and meet the credit requirements under Open Elective (OE), Discipline Elective (DE), Skill Enhancement Courses (SEC), and Ability Enhancement Courses (AEC) to be eligible for the degree."
+      },
+      {
+          "question": "What is the process for course registration?",
+          "answer": "Students must register for courses they intend to study in a semester through a Course Registration process. The registration is carried out on specific days declared by the University. Students with outstanding dues can register but cannot attend classes until fees are paid. Late registration is permitted for up to 10 calendar days with the approval of the School Dean and payment of a late fee."
+      },
+      {
+          "question": "What is the role of a Proctor in FFCS?",
+          "answer": "A Proctor assists students in planning their academic journey. They discuss the student's academic performance and suggest the number and nature of courses to be registered in the upcoming semester, within the framework of the programme curriculum. The Proctor also helps students with backlogs or those under probation to pace their studies accordingly."
+      },
+      {
+          "question": "What are bridge courses?",
+          "answer": "Bridge courses are special courses recommended for students based on their proficiency in language or fundamental disciplines. These courses are registered automatically for students who need to compensate for inadequacies identified through screening tests or previous qualifying examinations. The credits and grades from bridge courses do not count toward CGPA or minimum credit requirements."
+      },
+      {
+          "question": "What is the maximum and minimum number of credits a student can register in a semester?",
+          "answer": "In a regular semester, students can register for a maximum of 27 credits and a minimum of 16 credits. However, students with a CGPA below 4.0 are advised to register for a maximum of 16 credits. There is no minimum or maximum credit limit for summer or weekend semesters."
+      },
+      {
+          "question": "What is the process for re-registering backlog courses?",
+          "answer": "Students who have not cleared one or more components of a course (Theory/Lab) are awarded an 'N' grade. If a student clears all components but fails to meet the passing range, an 'F' grade is awarded. Both 'F' and 'N' grades require re-registration of the course in subsequent semesters. Students must pay a re-registration fee for re-registering backlog courses."
+      },
+      {
+          "question": "What is the procedure for adding or dropping courses?",
+          "answer": "Students can add or drop courses during the first three instructional days of the semester, subject to resource availability and credit limits. Courses dropped during this period will not appear in the semester grade sheet. Add/Drop is not available for summer or weekend semesters."
+      },
+      {
+          "question": "What is the process for course withdrawal?",
+          "answer": "If a student is unsatisfied with their performance in CAT-I, they can withdraw from the course after CAT-I marks are finalized. Course withdrawal is permitted for three instructional days, and withdrawn courses are marked with a 'W' grade. Withdrawal below 16 credits is generally not permitted, except for final-year or timed-out students."
+      },
+      {
+          "question": "What are the prerequisites for registering a course?",
+          "answer": "Some courses have prerequisites that must be met before registration. Students who have received an 'F' grade in a prerequisite course are still permitted to register for the next level course, assuming they have gained the required exposure. Anti-requisites and co-requisites may also apply to certain courses."
+      },
+      {
+          "question": "What is the assessment and evaluation process for courses?",
+          "answer": "Courses are assessed through Continuous Assessment Tests (CAT-I and CAT-II), Digital Assignments, and a Final Assessment Test (FAT). CAT-I and CAT-II are worth 15 marks each, and the FAT is worth 40 marks. The total continuous assessment marks account for 60% of the grade, while the FAT accounts for 40%. Laboratory and project courses have separate evaluation criteria."
+      },
+      {
+          "question": "What is the process for re-evaluation of answer sheets?",
+          "answer": "Students can apply for re-evaluation of their FAT answer sheets within a specified time period by paying a fee. If the re-evaluation results in a change of more than 5% in marks, the answer sheet is evaluated again by a different examiner. The best of the three evaluations is considered for grading."
+      },
+      {
+          "question": "What is the procedure for absence from an exam?",
+          "answer": "Students who miss CAT-I due to valid reasons (e.g., internships, health issues) can apply for a Re-CAT-I with prior permission from the School Dean. Students who miss the FAT due to hospitalization or family emergencies can apply for a Re-FAT within 14 calendar days, supported by proper documentation."
+      },
+      {
+          "question": "What is the process for grade improvement?",
+          "answer": "Students can register for a course again in a subsequent semester to improve their grade. This is allowed only once per course, and students must pay an additional fee. Grade improvement courses are treated as additional courses and do not affect the maximum credit limit."
+      },
+      {
+          "question": "What is the Semester Abroad Program (SAP)?",
+          "answer": "The Semester Abroad Program allows undergraduate and postgraduate students to study at partner universities abroad and earn credits. Students can transfer a maximum of 21 credits, excluding UG/PG project work. The program is available during specific semesters, and students must have a CGPA of 7.0 or higher with no current backlogs."
+      },
+      {
+          "question": "What is the Honours Club?",
+          "answer": "The Honours Club is for students who maintain a CGPA of 9.25 or higher, have no 'F' grades, and have never been debarred for attendance or indiscipline. Members receive benefits such as preference for seminars/conferences, certificates of merit, and cash awards or scholarships."
+      },
+      {
+          "question": "What is the time limit for completing a programme?",
+          "answer": "The minimum period of study for a programme is specified in Annexure 1. Students are allowed an additional grace period of three years ('n+3') to complete backlog courses. If a student fails to complete the programme within this period, their studentship is automatically cancelled."
+      },
+      {
+          "question": "What is the process for awarding a degree?",
+          "answer": "After completing the course and credit requirements, students receive a Provisional Certificate. The degree is conferred during the subsequent convocation. The degree certificate indicates the branch, specialization, and any minor or honours earned by the student."
+      },
+      {
+          "question": "What is the process for modifying regulations?",
+          "answer": "The Academic Council has the right to add, delete, or modify the FFCS regulations. Any disputes in interpreting the rules are resolved by the Academic Council, and their decision is final and binding."
+      }
+  ]
+}
