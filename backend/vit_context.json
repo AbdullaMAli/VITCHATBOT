@@ -147,6 +147,276 @@
       {
           "question": "What is the process for modifying regulations?",
           "answer": "The Academic Council has the right to add, delete, or modify the FFCS regulations. Any disputes in interpreting the rules are resolved by the Academic Council, and their decision is final and binding."
-      }
+      },
+      {
+        "question": "What are the timelines for student project evaluations?",
+        "answer": "The timelines for student project evaluations are as follows: 1st Review (5% weightage) during the first week of the semester, 2nd Review (40% weightage) during the CAT-I period, submission of draft project report (5% weightage) 10 calendar days before the viva voce exam, synopsis submission 7 calendar days before the viva voce exam, and final project report submission one instructional day before the viva voce exam. The final viva voce exam (50% weightage) is conducted during the FAT period."
+    },
+    {
+        "question": "What are the rules for audit courses?",
+        "answer": "Audit courses allow students to gain exposure to a course without earning a grade. Students can register a maximum of two audit courses during their entire programme, provided their CGPA is 8.0 or higher. Audit courses require maintaining minimum attendance, and students must undergo all assessments. If a student fails to complete an audit course, they receive a 'W' grade. Audit courses do not count toward GPA or CGPA."
+    },
+    {
+        "question": "What are the rules for industrial internships?",
+        "answer": "All students must undergo a four-week industrial internship in a reputed industry, which can be completed in one stretch or two two-week stretches. Students maintain a digital log of their activities and submit a report and completion certificate. Marks are awarded based on the log, report, and viva voce performance. The internship is evaluated by an Industrial Internship Evaluation Committee."
+    },
+    {
+        "question": "What are the rules for UG Research Experience (URE)?",
+        "answer": "UG Research Experience (URE) includes project-type courses like TARP, Design Project, Laboratory Project, and Simulation Project. Each course carries 3 credits and is evaluated based on the student's performance in the project. Students can register for one course at a time and must complete it before registering for another. The credits earned count toward DE or OE requirements."
+    },
+    {
+        "question": "What are the rules for course equivalence?",
+        "answer": "Course equivalence allows students to register for a course with a modified syllabus if the changes are marginal. The Course Committee determines equivalence, and students must complete the new syllabus. The original course code and title are reflected in the grade sheet, and credits are awarded based on the original course."
+    } 
+  ],
+  "men's hostel":[
+    {
+        "question": "What is the rule regarding attendance in the hostel?",
+        "answer": "Students must be available in their respective rooms as attendance will be taken in their respective blocks at 9.00 pm every night."
+    },
+    {
+        "question": "Can students stay in rooms other than the one allotted to them?",
+        "answer": "No, students should stay only in the room allotted to them. Staying in another student's room is not permitted."
+    },
+    {
+        "question": "What is the policy on harassment in the hostel?",
+        "answer": "Any form of physical or mental harassment, including ragging, quarrelling, using abusive language, or violent behaviour, is strictly prohibited."
+    },
+    {
+        "question": "Is smoking allowed in the hostel or on the university campus?",
+        "answer": "No, smoking is strictly prohibited inside the hostel premises and on the university campus."
+    },
+    {
+        "question": "What are the rules regarding noise and disturbances in the hostel?",
+        "answer": "Silence should be maintained in the hostel, especially from 9.00 pm to 6.00 am. Students should not disturb others by conducting parties, playing music, or talking loudly on mobile phones."
+    },
+    {
+        "question": "Are Multi-Level Marketing (MLM) and gambling allowed in the hostel?",
+        "answer": "No, Multi-Level Marketing (MLM) and gambling in any form, including playing cards, are prohibited in the hostel."
+    },
+    {
+        "question": "What are the consequences of possessing or consuming liquor in the hostel?",
+        "answer": "If a liquor bottle (even empty) is found in any room, all students staying in that room are liable to be suspended for one year. Consuming liquor inside the hostel, bringing liquor into the hostel or campus, or entering the campus/hostel in a drunken state will result in suspension for one year or one semester, respectively."
+    },
+    {
+        "question": "What are the rules regarding narcotics or related substances in the hostel?",
+        "answer": "If narcotics or related substances are found in any room, all students staying in that room will be expelled from VIT. Consuming, trading, or possessing narcotics inside or outside the hostel will also result in expulsion."
+    },
+    {
+        "question": "What happens if a student damages hostel property?",
+        "answer": "Anyone causing damage to hostel property will be penalized suitably."
+    },
+    {
+        "question": "Can students bring day-scholars, ex-VITians, or non-VITians into the hostel?",
+        "answer": "No, hostel students are not allowed to bring day-scholars, ex-VITians, or non-VITians into the hostel premises."
+    },
+    {
+        "question": "How should students apply for leave or permission?",
+        "answer": "Students must apply for leave or permission through their Student-Login on the VIT website. They should not go to a place other than the one specified in the leave request."
+    },
+    {
+        "question": "Are motor vehicles allowed in the hostel campus?",
+        "answer": "No, hostellers are not allowed to keep or operate any kind of motor vehicles inside the hostel campus. However, bicycles are permitted."
+    },
+    {
+        "question": "What electrical or electronic equipment are students allowed to keep in their rooms?",
+        "answer": "Students are not allowed to keep air coolers, TVs, electric iron boxes, or any other unauthorized electrical or electronic equipment/gadgets in their rooms. Unauthorized possession will lead to confiscation of the goods. Cooking in the rooms is also strictly prohibited."
+    },
+    {
+        "question": "What should students do to safeguard their belongings?",
+        "answer": "Students are personally responsible for safeguarding their belongings. They are advised not to keep large amounts of cash or valuables like gold, expensive watches, laptops, mobile phones, or jewellery in their rooms."
+    },
+    {
+        "question": "What is the process for vacating the hostel and staying outside?",
+        "answer": "Students who wish to vacate the hostel and stay outside must produce a written consent letter from their parents."
+    },
+    {
+        "question": "Can students stay in the hostel during vacation periods?",
+        "answer": "Students will not be permitted to stay in the hostels during vacation periods unless they have academic assignments."
+    },
+    {
+        "question": "What is the rule for students staying in the hostel during the summer semester?",
+        "answer": "Students planning to stay back during the summer semester at hostels must pay the summer semester fees."
+    },
+    {
+        "question": "What are the timings for students to arrive at the campus gate and be in the hostel?",
+        "answer": "Students must arrive at the campus gate by 6.00 pm and must be inside the hostels by 9.00 pm."
+    },
+    {
+      "question" : "What is the fee structure in men's hostel?",
+      "answer" : "The fee structure is variable depending on room size and other regulations, kindly visit the official VIT Chennai website for accurate Fee Details."
+    }
+  ],
+  "ladies/girls/womens hostel":[
+    {
+        "question": "What are the timings for students to arrive at the college gate and hostel gate?",
+        "answer": "Students must arrive at the college gate by 6:00 PM and at the hostel gate by 8:00 PM."
+    },
+    {
+        "question": "When should students record their attendance in the hostel?",
+        "answer": "Students must record their attendance every day between 7:30 PM and 8:30 PM using the biometric machines without fail."
+    },
+    {
+        "question": "Can students stay in rooms other than the one allotted to them?",
+        "answer": "No, students should stay only in the room allotted to them. Staying in other rooms is not permitted."
+    },
+    {
+        "question": "Is the room allotted to a student permanent?",
+        "answer": "No, the room allotted to a student is not permanent. If necessary, the hostel administration may change the room for maintenance convenience."
+    },
+    {
+        "question": "What is the policy on harassment in the hostel?",
+        "answer": "Any form of physical or mental harassment, including ragging, quarrelling, using abusive language, or violent behaviour, is strictly prohibited and punishable."
+    },
+    {
+        "question": "Is smoking allowed in the hostel or on the university campus?",
+        "answer": "No, smoking is strictly prohibited and punishable inside the hostel premises and on the university campus."
+    },
+    {
+        "question": "What are the rules regarding noise and disturbances in the hostel?",
+        "answer": "Silence should be maintained in the hostel, especially from 9:00 PM to 6:00 AM. Students should not disturb others by conducting parties, playing music, or talking loudly on mobile phones."
+    },
+    {
+        "question": "Are Multi-Level Marketing (MLM) and gambling allowed in the hostel?",
+        "answer": "No, Multi-Level Marketing (MLM) and gambling in any form, including playing cards, are prohibited in the hostel."
+    },
+    {
+        "question": "Is playing online games allowed in the hostel?",
+        "answer": "No, playing online games that disturb the peaceful environment of the hostel is strictly prohibited."
+    },
+    {
+        "question": "What are the consequences of consuming or possessing alcohol in the hostel?",
+        "answer": "Students found entering the university or hostel premises under the influence of alcohol or inducing others to consume alcohol will be suspended for one semester. If a student is found consuming or possessing liquor (even empty bottles) inside the university or hostel premises, they will be suspended for one year."
+    },
+    {
+        "question": "What are the rules regarding narcotics or related substances in the hostel?",
+        "answer": "If narcotics or related substances are found in any room, all students staying in that room will be expelled from the university. Consuming, trading, or possessing narcotics inside or outside the hostel will also result in expulsion. Abuse of any chemicals is strictly prohibited."
+    },
+    {
+        "question": "What happens if a student damages hostel property?",
+        "answer": "Anyone causing damage to hostel property will be penalized suitably."
+    },
+    {
+        "question": "Can students bring day-scholars, ex-VITians, or non-VITians into the hostel?",
+        "answer": "No, hostel students are not allowed to bring day-scholars, ex-VITians, or non-VITians into the hostel premises."
+    },
+    {
+        "question": "What is the procedure for students going out for an overnight stay?",
+        "answer": "If a student is going out for an overnight stay, she must obtain prior permission before leaving the hostel as per the procedure. Violation of this rule is punishable as per norms."
+    },
+    {
+        "question": "Are motor vehicles allowed in the hostel campus?",
+        "answer": "No, hostellers are not allowed to keep or use any kind of motor vehicles inside or outside the campus. However, bicycles are permitted."
+    },
+    {
+        "question": "What electrical or electronic equipment are students allowed to keep in their rooms?",
+        "answer": "Students are not allowed to keep air coolers, musical instruments, cassette record players, electric fans, TVs, electric iron boxes, power extension boxes, kettles, or any other unauthorized electrical equipment/gadgets in their rooms. Unauthorized possession will lead to confiscation of the goods. Cooking in the rooms is strictly prohibited for fire safety reasons."
+    },
+    {
+        "question": "What should students do to safeguard their belongings?",
+        "answer": "Students are personally responsible for safeguarding their belongings. They are advised not to keep large amounts of cash or valuables like gold, expensive watches, or jewellery in their rooms. Students must lock their cupboards and rooms when they leave."
+    },
+    {
+        "question": "Are students allowed to stay in external hostels or rented houses?",
+        "answer": "No, students who live more than 60 km away from the campus must stay in the VIT hostel only. Staying in external hostels or rented houses with friends is not allowed under any circumstances."
+    },
+    {
+        "question": "What is the procedure for leaving the hostel?",
+        "answer": "Leaving the hostel is permitted only after receiving approval via message or email from the parents or local guardian (who must be enrolled in the hostel office with parental approval). On return, a signature from the parents or local guardian is required."
+    },
+    {
+        "question": "How many times can students go on leave to their hometown or local guardian's place in a month?",
+        "answer": "Students are permitted to go on leave to their hometown or local guardian's place only twice a month after approval from their parents or proctor."
+    },
+    {
+        "question": "Can students stay in the hostel during vacation periods?",
+        "answer": "Students will not be permitted to stay in the hostels during vacation periods unless they have academic assignments."
+    },
+    {
+        "question": "What is the rule for students staying in the hostel during the summer semester?",
+        "answer": "Students planning to stay back during the summer semester at hostels must pay the summer semester fees."
+    },
+    {
+        "question": "What is the dress code for girl students when leaving the hostel premises?",
+        "answer": "Girl students are permitted to go out from the hostel premises only in decent dress as per norms."
+    },
+    {
+        "question": "What is the role of parents or guardians in hostel matters?",
+        "answer": "Parents or guardians must report in person when called by the hostel officials. No other friends or relatives will be entertained. Parents or guardians are expected to raise their issues or concerns to the respective in-charge or proctor by referring to the university's official website."
+    },
+    {
+        "question": "What is the Personal Security Bond and Local Guardian Details?",
+        "answer": "The Personal Security Bond is a document signed by the parent/guardian and student, authorizing the university to allow the student to go out of the campus with proper prior intimation. The parent/guardian takes full responsibility for the student's actions. A local guardian must also be designated, and the student may avail leave to visit the local guardian's place as per approved leave regulations."
+    },
+    {
+        "question": "What happens if a student causes damage to university property?",
+        "answer": "The student and parent/guardian are required to indemnify the university for any loss or damage caused by the student. If the damage is not made good within 15 days, the university may recover the loss along with 36% interest per annum."
+    }
+  ],
+  "health facilities":[
+    {
+        "question": "Where is the Health Centre located?",
+        "answer": "The Health Centre is located near Academic Block 2."
+    },
+    {
+        "question": "Who runs the Health Centre?",
+        "answer": "The Health Centre is currently run by the Apollo Shine Foundation."
+    },
+    {
+        "question": "What are the operating hours of the Health Centre?",
+        "answer": "The Health Centre operates 24×7 to cater to students' medical needs."
+    },
+    {
+        "question": "What is the helpline number for the Health Centre?",
+        "answer": "The helpline number for the Health Centre is 044 3993 1100."
+    },
+    {
+        "question": "What facilities are available at the Health Centre?",
+        "answer": "The Health Centre provides the following facilities: Observation Beds, Consultation Room, Doctor and Staff Nurses, Housekeeping, and 2 Ambulances."
+    },
+    {
+        "question": "Does the Health Centre have observation beds?",
+        "answer": "Yes, the Health Centre has observation beds for students who require medical monitoring."
+    },
+    {
+        "question": "Is there a consultation room at the Health Centre?",
+        "answer": "Yes, the Health Centre has a consultation room where students can meet with doctors."
+    },
+    {
+        "question": "Are there doctors and staff nurses available at the Health Centre?",
+        "answer": "Yes, the Health Centre has doctors and staff nurses available to attend to students' medical needs."
+    },
+    {
+        "question": "Does the Health Centre provide housekeeping services?",
+        "answer": "Yes, housekeeping services are available at the Health Centre to maintain cleanliness and hygiene."
+    },
+    {
+        "question": "How many ambulances are available at the Health Centre?",
+        "answer": "There are 2 ambulances available at the Health Centre for emergency medical transportation."
+    },
+    {
+        "question": "Can students access the Health Centre at any time?",
+        "answer": "Yes, the Health Centre is operational 24×7, so students can access it at any time for medical assistance."
+    },
+    {
+        "question": "What should students do in case of a medical emergency?",
+        "answer": "In case of a medical emergency, students can call the Health Centre helpline at 044 3993 1100 or visit the Health Centre near Academic Block 2. Ambulance services are also available for emergencies."
+    },
+    {
+        "question": "Is the Health Centre equipped to handle emergencies?",
+        "answer": "Yes, the Health Centre is equipped with observation beds, a consultation room, doctors, staff nurses, and 2 ambulances to handle medical emergencies."
+    },
+    {
+        "question": "Can students consult a doctor at the Health Centre?",
+        "answer": "Yes, students can consult a doctor at the Health Centre in the consultation room."
+    },
+    {
+        "question": "Are there any charges for using the Health Centre facilities?",
+        "answer": "The document does not specify any charges for using the Health Centre facilities. Students should contact the Health Centre directly for more information."
+    },
+    {
+        "question": "What is the role of the Apollo Shine Foundation at the Health Centre?",
+        "answer": "The Apollo Shine Foundation manages and operates the Health Centre, providing medical services to students."
+    }
   ]
 }
